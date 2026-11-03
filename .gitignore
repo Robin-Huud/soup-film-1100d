@@ -1,0 +1,12 @@
+# Magic Lantern checkout and build output (build.sh)
+/ml/
+/sdcard.new/
+module/build/
+module/tests/host/out/
+# your own test photos (module/tests/host/run.sh takes a path)
+module/tests/host/img/
+# renders of a commercial typeface (fonts/make-fonts.sh)
+fonts/*.RBF
+fonts/mkrbf
+.DS_Store
+._*
